@@ -1,4 +1,4 @@
-﻿using CetStudentBook.Models;
+using CetStudentBook.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

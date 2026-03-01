@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CetStudentBook.Models
 {
@@ -17,6 +18,7 @@ namespace CetStudentBook.Models
         
         [DisplayName("Birth Date")]
         [DataType(DataType.Date)]
+        [Column(TypeName = "date")]
         public DateTime DateOfBirth { get; set; } //datetime2, Not Null
 
     }
