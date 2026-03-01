@@ -20,13 +20,16 @@ namespace CetStudentBook.Models
         [Required]
         [DataType(DataType.Date)]
         [Column(TypeName = "date")]
+        [DisplayName("Publish Date")]
         public DateTime PublishDate { get; set; }
         
         [Required]
         [Range(1,10000)]
+        [DisplayName("Page Count")]
         public int PageCount { get; set; }
         
         [Required]
+        [DisplayName("Tick If Second Hand")]
         public bool IsSecondHand { get; set; }
         
         

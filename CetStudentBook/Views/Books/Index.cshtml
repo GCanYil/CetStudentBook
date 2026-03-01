@@ -1,0 +1,58 @@
+@model IEnumerable<CetStudentBook.Models.Book>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Books</h1>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Author
+            </th>
+            <th>
+                PublishDate
+            </th>
+            <th>
+                PageCount
+            </th>
+            <th>
+                IsSecondHand
+            </th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Author
+                </td>
+                <td>
+                    @item.PublishDate.ToShortDateString()
+                </td>
+                <td>
+                    @item.PageCount
+                </td>
+                <td>
+                    @(item.IsSecondHand ? "Yes" : "No")
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-secondary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>

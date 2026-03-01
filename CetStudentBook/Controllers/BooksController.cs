@@ -71,10 +71,15 @@ namespace CetStudentBook.Controllers
                 var bookExists = context.Books.FirstOrDefault(s => s.Id == book.Id);
                 if (bookExists == null)
                 {
-                    ModelState.AddModelError("Id", "This book does not exist");
                     return NotFound();
                 }
-                context.Books.Update(book);
+                //had an error with context.Books.Update(book); that I couldn't solve, so I changed to this form:
+                bookExists.Name = book.Name;
+                bookExists.Author = book.Author;
+                bookExists.PublishDate = book.PublishDate;
+                bookExists.PageCount = book.PageCount;
+                bookExists.IsSecondHand = book.IsSecondHand;
+
                 context.SaveChanges();
                 return RedirectToAction("Index");
             }
