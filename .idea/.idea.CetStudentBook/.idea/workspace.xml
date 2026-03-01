@@ -9,16 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f2ba1cf-c209-40dd-9aee-74ae52ae402c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/CetStudentBook.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CetStudentBook/CetStudentBook.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CetStudentBook/Controllers/BooksController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CetStudentBook/Models/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CetStudentBook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CetStudentBook/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CetStudentBook/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/00000000000000_CreateIdentitySchema.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/20260223111806_book_added.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/20260223111806_book_added.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CetStudentBook/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CetStudentBook/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CetStudentBook/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CetStudentBook/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CetStudentBook/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +34,16 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/huseyinsimsek/CetStudentBook",
+    "url": "https://github.com/GCanYil/CetStudentBook.git",
     "accountId": "ffe3c31c-1e90-4b7d-8577-2b01cfa156d7"
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CetStudentBook/Controllers/BooksController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CetStudentBook/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CetStudentBook/Models/Book.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 4
@@ -112,16 +110,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772284006949</updated>
-      <workItem from="1772284008348" duration="4814000" />
+      <workItem from="1772284008348" duration="9331000" />
     </task>
+    <task id="LOCAL-00001" summary="Made project run with PostgreSQL">
+      <option name="closed" value="true" />
+      <created>1772364532509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772364532509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Made project run with PostgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made project run with PostgreSQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
